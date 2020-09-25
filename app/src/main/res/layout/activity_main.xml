@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<!-- 이미지를 보여주는 뷰 -->
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/flag_korea"
+        android:scaleType="centerInside"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"/>    <!--단일뷰-->
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="australia" />
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belgium"/>
+
+    <Button
+        android:id="@+id/btn03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canada"/>
+
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korea"/>
+
+
+</LinearLayout>
